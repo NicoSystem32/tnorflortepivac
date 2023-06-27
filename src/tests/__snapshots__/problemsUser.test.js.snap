@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <ProblemsUser /> debe de mostrar <ProblemsUser /> correctamente 1`] = `
+<div
+  className="content-global-login"
+>
+  <img
+    className="points-img"
+    src="points.png"
+    srcSet="points.svg"
+  />
+  <div
+    className="content-global-init"
+  >
+    <Form
+      className="form-login-failed"
+    >
+      <img
+        alt=""
+        className="form-img"
+        src="login.png"
+      />
+      <div
+        className="content-title"
+      />
+      <a
+        className="content-options-pu"
+        href="/forget-password"
+        id="forget-password-pu"
+      >
+        <img
+          alt=""
+          className="img-options-pu"
+          src="forgot.png"
+          srcSet="forgot.svg"
+        />
+        <p
+          className="link-options-pu"
+        >
+          Olvidé
+          <p
+            className="text-options-pu"
+          >
+             mi usuario
+          </p>
+        </p>
+      </a>
+      <a
+        className="content-options-pu"
+        href="https://transacciones.cavipetrol.com/DwPortalApp/Cavionline/UI/Web/bloqueado_m.aspx?tabID=417&mID=3411"
+        id="locked-user-pu"
+        target="_blank"
+      >
+        <img
+          alt=""
+          className="img-options-pu"
+          src="forgot.png"
+          srcSet="forgot.svg"
+        />
+        <p
+          className="link-options-pu"
+        >
+          Desbloquear
+          <p
+            className="text-options-pu"
+          >
+             mi usuario
+          </p>
+        </p>
+      </a>
+      <a
+        className="content-options-pu"
+        href="https://transacciones.cavipetrol.com/DwPortalApp/Cavionline/UI/Web/x_crea0_m.aspx?tabID=417&mID=3411"
+        id="new-user-pu"
+        target="_blank"
+      >
+        <img
+          alt=""
+          className="img-options-pu"
+          src="forgot.png"
+          srcSet="forgot.svg"
+        />
+        <p
+          className="link-options-pu"
+        >
+          Soy nuevo,
+          <p
+            className="text-options-pu"
+          >
+             quiero registrarme
+          </p>
+        </p>
+      </a>
+      <div
+        className="content-link-service"
+      >
+        <a
+          href="/support"
+          id="support-pu"
+        >
+          Contactar a servicio al asociado
+        </a>
+      </div>
+    </Form>
+  </div>
+  <img
+    alt=""
+    className="elipse-img"
+    src="elipse.png"
+  />
+  <img
+    alt=""
+    className="elipse-img-desk elipse-failed"
+    src="elipse-desk.png"
+  />
+  <img
+    alt=""
+    className="networks-img failed"
+    src="networks.png"
+  />
+  <img
+    alt=""
+    className="women-img"
+    src="women.png"
+  />
+</div>
+`;

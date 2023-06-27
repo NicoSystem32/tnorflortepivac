@@ -1,0 +1,418 @@
+.content-copyright{
+    color: var(--background-color) !important;
+    font-family: var(--font-secundary-regular);
+    font-size: 16px;
+    display: grid;
+    gap: 2px;
+    justify-content: center;
+    padding: 20px 0;
+    p{
+        text-align: center;
+        margin: 0 !important;
+    }
+}
+.content-footer-init{
+    padding: 0 !important;
+    max-width: 100vw !important;
+    margin: auto 0 0 0!important;
+
+    @media (min-width: 1400px) {
+      background-color: var(--footer-color) !important;
+      height: 249px;
+    }
+}
+.content-footer{
+    padding: 0 !important;
+    max-width: 100vw !important;
+    margin: auto 0 0 0!important;
+}
+.content-modal-footer{
+    text-align: center;
+}
+.content-link-footer{
+    display: flex;
+    flex-direction: column;
+}
+.content-logo-footer{
+    margin-top: 20px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.content-sect1-footer{
+    grid-area: sec1Footer;
+    margin-top: 0;
+}
+.content-sect2-footer{
+    grid-area: sec2Footer;
+    margin-top: 15px;
+}
+.content-sect3-footer{
+    grid-area: sec3Footer;
+    margin-top: 15px;
+}
+.content-sect4-footer{
+    grid-area: sec4Footer;
+    margin-top: 15px;
+}
+.content-social-network{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.content-user-login{
+    display: flex;
+    gap: 5px;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 15%;
+}
+.footer{
+    background-color: var(--footer-color) !important;
+    padding: 0 10%;
+}
+.footer-init{
+    background-color: var(--footer-color) !important;
+    padding: 0 10%;
+    text-align: center;
+}
+.hr-footer{
+    width: 80%;
+    color: var(--background-color);
+    height: 2px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-footer{
+    color: var(--background-color) !important;
+    font-family: var(--font-secundary-regular);
+    font-size: 14px;
+    background-color: var(--footer-color) !important;
+    border: none !important;
+    padding: 0 !important;
+}
+.info-modal-footer{
+    color: var(--footer-color) !important;
+    font-family: var(--font-secundary-regular);
+    font-size: 14px;
+    border: none !important;
+    padding: 2px !important;
+}
+.info-modal-footer-i{
+    color: var(--dominant-color) !important;
+    font-family: var(--font-secundary-regular);
+    font-size: 14px;
+    border: none !important;
+    padding: 2px !important;
+}
+.modal-contact-footer {
+    .modal-content{
+        border-radius: 10px !important;
+    }
+    .btn-close {
+        background: transparent url(../../assets/icons/close-modal.png) center/1em auto no-repeat;
+        background-size: 25px;
+        opacity: 1 !important;
+    }
+    .modal-header{
+        border: none !important;
+        display: grid;
+        grid-template-columns: 75% 25%;
+        text-align: end;
+        padding: 1rem 2rem;
+        color: var(--dominant-color) !important;
+        font-family: var(--font-main-medium) !important;
+        font-size: 18px;
+    }
+    .option-end{
+      grid-template-columns: 100% !important;
+    }
+    .modal-footer{
+        border: none !important;
+        justify-content: center;
+        button{
+            width: 157px;
+            height: 41px;
+            border-radius: 10px !important;
+            background-color: var(--sub-dominant-color) !important;
+            border-color: transparent !important;
+            font-family: var(--font-main-regular);
+            color: var(--background-color);
+        }
+    }
+}
+.modal-code-multi-medium {
+  min-height: 520px !important;
+  .modal-content{
+      border-radius: 10px !important;
+      min-height: 520px !important;
+  }
+}
+.modal-code-multi-big {
+  min-height: 575px !important;
+  .modal-content{
+      border-radius: 10px !important;
+      min-height: 575px !important;
+  }
+}
+.modal-code-multi {
+  min-height: 480px;
+  .modal-content{
+      border-radius: 10px !important;
+      min-height: 480px;
+  }
+  .modal-header{
+      border: none !important;
+      display: grid;
+      grid-template-columns: 75% 25%;
+      text-align: end;
+      padding: 1rem 2rem;
+      color: var(--dominant-color) !important;
+      font-family: var(--font-main-medium) !important;
+      font-size: 18px;
+  }
+  .modal-footer{
+      border: none !important;
+      justify-content: center;
+      button{
+          width: 157px;
+          height: 41px;
+          border-radius: 10px !important;
+          background-color: var(--sub-dominant-color) !important;
+          border-color: transparent !important;
+          font-family: var(--font-main-regular);
+          color: var(--background-color);
+      }
+  }
+  .title-modal{
+    padding-top: 25px;
+  }
+}
+.link-footer{
+    color: var(--background-color) !important;
+    font-family: var(--font-secundary-regular);
+    font-size: 14px;
+    background-color: var(--footer-color) !important;
+    border: none !important;
+    padding: 0 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.link-social-network{
+    cursor: pointer;
+}
+.logo-super, .logo-cavipetrol{
+    width: 113px;
+    height: 53px;
+}
+.only-desk-footer{
+    display: none;
+}
+.second-copyright{
+    display: none;
+}
+.social-network{
+    width: 30px;
+    height: 30px;
+}
+.sub-title-footer{
+    color: var(--dominant-color) !important;
+}
+.title-footer{
+    color: var(--dominant-color);
+    font-family: var(--font-main-medium);
+    font-size: 18px;
+}
+.title-footer-mob{
+    font-family: var(--font-main-medium);
+    font-size: 18px !important;
+    color: var(--dominant-color) !important;
+    text-align: center !important;
+    text-decoration: underline !important;
+    background-color: transparent !important;
+    border: none !important;
+    margin: auto !important;
+    box-shadow: none !important;
+}
+@media (min-width:1180px) and (max-width: 1400px){
+    body{
+        position: relative;
+    }
+    .content-copyright{
+        grid-area: copyright;
+        font-size: 16px;
+        display: flex;
+        gap: 2px;
+        justify-content: flex-end;
+        padding: 0;
+    }
+    .content-firts-info{
+        grid-area: firtsInfo;
+    }
+    .content-logo-footer{
+        grid-area: logos;
+        margin-top: 0px;
+        gap: 30px;
+        justify-content: flex-end;
+    }
+    .content-second-info{
+        grid-area: secondInfo;
+    }
+    .content-sect1-footer{
+        grid-area: sec1Footer;
+        margin-top: 0px !important;
+    }
+    .content-sect2-footer, .content-sect3-footer, .content-sect4-footer{
+        margin-top: 0px;
+    }
+    .content-social-network{
+        grid-area: networks;
+        gap: 15px;
+        justify-content: flex-end;
+        padding: 0px;
+    }
+    .firts-copyright, .second-copyright, .third-copyright{
+        white-space: nowrap;
+    }
+    .footer{
+        display: grid;
+        padding: 0 0 1% 0 !important;
+        grid-template-rows: 39px 32px 45px 25px 59px 10px 25px;
+        grid-template-columns: 7% 18% 18% 18% 32% 7%;
+        grid-template-areas: ". . . . . ."
+                            ". sec1Footer sec2Footer sec3Footer logos ."
+                            ". sec1Footer sec2Footer sec3Footer logos ."
+                            ". sec1Footer sec2Footer sec4Footer networks ."
+                            ". sec1Footer sec2Footer sec4Footer . ."
+                            ". sec1Footer sec2Footer sec4Footer copyright ."
+                            ". . . . . .";
+    }
+    .footer-init{
+        display: grid;
+        padding: 0 !important;
+        grid-template-rows: 39px 32px 45px 25px 59px 10px 25px;
+        grid-template-columns: 7% 18% 18% 18% 32% 7%;
+        grid-template-areas: ". . . . . ."
+                            ". title . . logos ."
+                            ". firtsInfo secondInfo . logos ."
+                            ". firtsInfo secondInfo . networks ."
+                            ". firtsInfo secondInfo . . ."
+                            ". firtsInfo secondInfo . copyright ."
+                            ". . . . . .";
+        text-align: start;
+    }
+    .hr-footer{
+        display: none;
+    }
+    .logo-super, .logo-cavipetrol{
+        width: 143px;
+        height: 67px;
+    }
+    .only-desk-footer{
+        display: block;
+    }
+    .second-copyright{
+        display: block;
+    }
+    .social-network {
+        width: 20px;
+        height: 20px;
+    }
+    .title-footer{
+        grid-area: title;
+    }
+    .title-footer-mob{
+        display: none !important;
+    }
+}
+//Giant
+@media (min-width:1400px){
+    .content-copyright{
+        grid-area: copyright;
+        font-size: 16px;
+        display: flex;
+        gap: 2px;
+        justify-content: flex-end;
+        padding: 0;
+    }
+    .content-firts-info{
+        grid-area: firtsInfo;
+    }
+    .content-logo-footer{
+        grid-area: logos;
+        margin-top: 0px;
+        gap: 30px;
+        justify-content: flex-end;
+    }
+    .content-second-info{
+        grid-area: secondInfo;
+    }
+    .content-sect1-footer{
+        grid-area: sec1Footer;
+        margin-top: 15px;
+    }
+    .content-social-network{
+        grid-area: networks;
+        gap: 15px;
+        justify-content: flex-end;
+        padding: 0px;
+    }
+    .firts-copyright, .second-copyright, .third-copyright{
+        white-space: nowrap;
+    }
+    .footer{
+        display: grid;
+        padding: 0 0 1% 0 !important;
+        grid-template-rows: 39px 32px 45px 25px 59px 10px 25px;
+        grid-template-columns: 7% 18% 18% 18% 32% 7%;
+        grid-template-areas: ". . . . . ."
+                            ". sec1Footer sec2Footer sec3Footer logos ."
+                            ". sec1Footer sec2Footer sec3Footer logos ."
+                            ". sec1Footer sec2Footer sec4Footer networks ."
+                            ". sec1Footer sec2Footer sec4Footer . ."
+                            ". sec1Footer sec2Footer sec4Footer copyright ."
+                            ". . . . . .";
+    }
+    .footer-init{
+        display: grid;
+        padding: 0 !important;
+        grid-template-rows: 39px 32px 45px 25px 59px 10px 25px;
+        grid-template-columns: 7% 18% 18% 18% 32% 7%;
+        grid-template-areas: ". . . . . ."
+                            ". title . . logos ."
+                            ". firtsInfo secondInfo . logos ."
+                            ". firtsInfo secondInfo . networks ."
+                            ". firtsInfo secondInfo . . ."
+                            ". firtsInfo secondInfo . copyright ."
+                            ". . . . . .";
+        text-align: start;
+        max-width: 1320px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .hr-footer{
+        display: none;
+    }
+    .logo-super, .logo-cavipetrol{
+        width: 143px;
+        height: 67px;
+    }
+    .only-desk-footer{
+        display: block;
+    }
+    .second-copyright{
+        display: block;
+    }
+    .social-network {
+        width: 20px;
+        height: 20px;
+    }
+    .title-footer{
+        grid-area: title;
+    }
+    .title-footer-mob{
+        display: none !important;
+    }
+}

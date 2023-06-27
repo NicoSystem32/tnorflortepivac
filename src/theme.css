@@ -1,0 +1,78 @@
+
+.theme-mode-default {
+  --dominant-color: var(--dominant-color-theme1);
+  --dominant-color-dark: var(--dominant-color-dark-theme1);
+  --dominant-color-ligth: var(--dominant-color-ligth-theme1);
+
+  --sub-dominant-color: var(--sub-dominant-color-theme1);
+  --sub-dominant-color-ligth: var(--sub-dominant-color-ligth-theme1);
+  --sub-dominant-color-href: var(--sub-dominant-color-href-theme1);
+
+  --button-color: var(--button-color-theme1);
+  --button-color-dark: var(--button-color-dark-theme1);
+  --button-color-hover: var(--button-color-hover-theme1);
+
+  --img-elipse-desk: var(--img-elipse-desk-theme1);
+  --img-elipse-mobile: var(--img-elipse-mobile-theme1);
+  --img-form-login: var(--img-form-login-theme1);
+  --img-register-header: var(--img-register-header-theme1);
+  --img-register-hover-header: var(--img-register-hover-header-theme1);
+  --img-banner-login: var(--img-banner-login-theme1);
+  --icon-money-header: var(--icon-money-header-theme1);
+  --icon-product-header: var(--icon-product-header-theme1);
+  --icon-chart-header: var(--icon-chart-header-theme1);
+  --icon-credit-header: var(--icon-credit-header-theme1);
+  --icon-wallet-hover-header: var(--icon-wallet-hover-header-theme1);
+}
+
+.theme-mode-green {
+  --dominant-color: var(--dominant-color-theme2);
+  --dominant-color-dark: var(--dominant-color-dark-theme2);
+  --dominant-color-ligth: var(--dominant-color-ligth-theme2);
+
+  --sub-dominant-color: var(--sub-dominant-color-theme2);
+  --sub-dominant-color-ligth: var(--sub-dominant-color-ligth-theme2);
+  --sub-dominant-color-href: var(--sub-dominant-color-href-theme2);
+
+  --button-color: var(--button-color-theme2);
+  --button-color-dark: var(--button-color-dark-theme2);
+  --button-color-hover: var(--button-color-hover-theme2);
+
+  --img-elipse-desk: var(--img-elipse-desk-theme2);
+  --img-elipse-mobile: var(--img-elipse-mobile-theme2);
+  --img-form-login: var(--img-form-login-theme2);
+  --img-register-header: var(--img-register-header-theme2);
+  --img-register-hover-header: var(--img-register-hover-header-theme2);
+  --img-banner-login: var(--img-banner-login-theme2);
+  --icon-money-header: var(--icon-money-header-theme2);
+  --icon-product-header: var(--icon-product-header-theme2);
+  --icon-chart-header: var(--icon-chart-header-theme2);
+  --icon-credit-header: var(--icon-credit-header-theme2);
+  --icon-wallet-hover-header: var(--icon-wallet-hover-header-theme2);
+}
+
+.theme-mode-azul {
+  --dominant-color: var(--dominant-color-theme3);
+  --dominant-color-dark: var(--dominant-color-dark-theme3);
+  --dominant-color-ligth: var(--dominant-color-ligth-theme3);
+
+  --sub-dominant-color: var(--sub-dominant-color-theme3);
+  --sub-dominant-color-ligth: var(--sub-dominant-color-ligth-theme3);
+  --sub-dominant-color-href: var(--sub-dominant-color-href-theme3);
+
+  --button-color: var(--button-color-theme3);
+  --button-color-dark: var(--button-color-dark-theme3);
+  --button-color-hover: var(--button-color-hover-theme3);
+
+  --img-elipse-desk: var(--img-elipse-desk-theme3);
+  --img-elipse-mobile: var(--img-elipse-mobile-theme3);
+  --img-form-login: var(--img-form-login-theme3);
+  --img-register-header: var(--img-register-header-theme3);
+  --img-register-hover-header: var(--img-register-hover-header-theme3);
+  --img-banner-login: var(--img-banner-login-theme3);
+  --icon-money-header: var(--icon-money-header-theme3);
+  --icon-product-header: var(--icon-product-header-theme3);
+  --icon-chart-header: var(--icon-chart-header-theme3);
+  --icon-credit-header: var(--icon-credit-header-theme3);
+  --icon-wallet-hover-header: var(--icon-wallet-hover-header-theme3);
+}

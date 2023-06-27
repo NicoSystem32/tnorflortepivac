@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <FooterInit /> debe de mostrar <FooterInit /> correctamente 1`] = `
+<Container
+  className="content-footer-init"
+  fluid={false}
+>
+  <div
+    className="footer-init"
+  >
+    <div
+      className="content-social-network"
+    >
+      <a
+        className="link-social-network"
+        href="https://www.instagram.com/cavipetrol_oficial/"
+        id="instagram-ft"
+        target="_blank"
+      >
+        <img
+          alt=""
+          className="social-network instagram"
+          src="instagram.png"
+          srcSet="instagram.svg"
+        />
+      </a>
+      <a
+        className="link-social-network"
+        href="https://www.facebook.com/Cavipetrol"
+        id="facebook-ft"
+        target="_blank"
+      >
+        <img
+          alt=""
+          className="social-network facebook"
+          src="facebook.png"
+          srcSet="facebook.svg"
+        />
+      </a>
+      <a
+        className="link-social-network"
+        href="https://twitter.com/Cavipetrol"
+        id="twitter-ft"
+        target="_blank"
+      >
+        <img
+          alt=""
+          className="social-network twitter"
+          src="twitter.png"
+          srcSet="twitter.svg"
+        />
+      </a>
+      <a
+        className="link-social-network"
+        href="https://www.linkedin.com/company/fondo-de-empleados-cavipetrol/"
+        id="linkedin-ft"
+        target="_blank"
+      >
+        <img
+          alt=""
+          className="social-network linkedin"
+          src="linkedin.png"
+          srcSet="linkedin.svg"
+        />
+      </a>
+    </div>
+    <hr
+      className="hr-footer"
+    />
+    <div
+      className="title-footer only-desk-footer"
+    >
+      Contacto
+    </div>
+    <Button
+      active={false}
+      className="title-footer-mob"
+      disabled={false}
+      onClick={[Function]}
+      variant="primary"
+    >
+      Contáctanos
+    </Button>
+    <div
+      className="content-firts-info only-desk-footer"
+    >
+      <ListGroup
+        className="content-info-footer firts-info"
+        variant="flush"
+      >
+        <ListGroupItem
+          className="info-footer"
+        >
+          Barrancabermeja:(60+7) 6973528
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-footer"
+        >
+          Bogotá: (60+1) 7452322
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-footer"
+        >
+          Bucaramanga: (60+7) 6973231
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-footer"
+        >
+          Cali:(60+2) 4893620
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-footer"
+        >
+          Cartagena:(60+5) 6932471
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-footer"
+        >
+          Cúcuta:(60+7) 5955919
+        </ListGroupItem>
+      </ListGroup>
+    </div>
+    <div
+      className="content-second-info only-desk-footer"
+    >
+      <ListGroup
+        className="content-info-footer second-info"
+        variant="flush"
+      >
+        <ListGroupItem
+          className="info-footer"
+        >
+          Medellín:(60+4) 6043238
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-footer"
+        >
+          Neiva:(60+8) 8630771
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-footer"
+        >
+          Villavicencio:(60+8) 6784290
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-footer"
+        >
+          Yopal:(60+8) 6333579
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-footer"
+        >
+          Orito, Tibú y Rubiales: 3208899981
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-footer sub-title-footer"
+        >
+          Resto del País: 018000180434
+        </ListGroupItem>
+      </ListGroup>
+    </div>
+    <div
+      className="content-logo-footer"
+    >
+      <img
+        alt=""
+        className="logo-super"
+        src="super2x.png"
+      />
+      <img
+        alt=""
+        className="logo-cavipetrol"
+        src="cavipetrol2x.png"
+      />
+    </div>
+    <div
+      className="content-copyright"
+    >
+      <p
+        className="firts-copyright"
+      >
+        Copyright © 2020 Cavipetrol.
+      </p>
+      <p
+        className="second-copyright"
+      >
+         - 
+      </p>
+      <p
+        className="third-copyright"
+      >
+        Política de tratamientos personales
+      </p>
+    </div>
+  </div>
+  <Modal
+    animation={true}
+    autoFocus={true}
+    backdrop={true}
+    className="modal-contact-footer"
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <ModalTitle
+        className="title-modal-footer"
+      >
+        Contáctenos
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody>
+      <ListGroup
+        className="content-modal-footer"
+        variant="flush"
+      >
+        <ListGroupItem
+          className="info-modal-footer"
+        >
+          Barrancabermeja:(60+7) 6973528
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-modal-footer"
+        >
+          Bogotá: (60+1) 7452322
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-modal-footer"
+        >
+          Bucaramanga: (60+7) 6973231
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-modal-footer"
+        >
+          Cali:(60+2) 4893620
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-modal-footer"
+        >
+          Cartagena:(60+5) 6932471
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-modal-footer"
+        >
+          Cúcuta:(60+7) 5955919
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-modal-footer"
+        >
+          Medellín:(60+4) 6043238
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-modal-footer"
+        >
+          Neiva:(60+8) 8630771
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-modal-footer"
+        >
+          Villavicencio:(60+8) 6784290
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-modal-footer"
+        >
+          Yopal:(60+8) 6333579
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-modal-footer"
+        >
+          Orito, Tibú y Rubiales: 3208899981
+        </ListGroupItem>
+        <ListGroupItem
+          className="info-modal-footer-i"
+        >
+          Resto del País: 018000180434
+        </ListGroupItem>
+      </ListGroup>
+    </ModalBody>
+    <ModalFooter>
+      <Button
+        active={false}
+        disabled={false}
+        onClick={[Function]}
+        variant="secondary"
+      >
+        Cerrar
+      </Button>
+    </ModalFooter>
+  </Modal>
+</Container>
+`;

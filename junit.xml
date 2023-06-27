@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="26" failures="0" errors="0" time="5.19">
+  <testsuite name="Pruebas en &lt;LoginFailed /&gt;" errors="0" failures="0" skipped="0" timestamp="2022-06-30T13:12:59" time="2.506" tests="2">
+    <testcase classname="Pruebas en &lt;LoginFailed /&gt; debe de mostrar &lt;LoginFailed /&gt; correctamente" name="Pruebas en &lt;LoginFailed /&gt; debe de mostrar &lt;LoginFailed /&gt; correctamente" time="0.02">
+    </testcase>
+    <testcase classname="Pruebas en &lt;LoginFailed /&gt; boton chatear debe redirigir correctamente" name="Pruebas en &lt;LoginFailed /&gt; boton chatear debe redirigir correctamente" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="Pruebas en &lt;Support /&gt;" errors="0" failures="0" skipped="0" timestamp="2022-06-30T13:12:59" time="2.539" tests="4">
+    <testcase classname="Pruebas en &lt;Support /&gt; debe de mostrar &lt;Support /&gt; correctamente" name="Pruebas en &lt;Support /&gt; debe de mostrar &lt;Support /&gt; correctamente" time="0.027">
+    </testcase>
+    <testcase classname="Pruebas en &lt;Support /&gt; boton chatear debe redirigir correctamente" name="Pruebas en &lt;Support /&gt; boton chatear debe redirigir correctamente" time="0.012">
+    </testcase>
+    <testcase classname="Pruebas en &lt;Support /&gt; boton whatsApp debe redirigir correctamente" name="Pruebas en &lt;Support /&gt; boton whatsApp debe redirigir correctamente" time="0.007">
+    </testcase>
+    <testcase classname="Pruebas en &lt;Support /&gt; boton email debe redirigir correctamente" name="Pruebas en &lt;Support /&gt; boton email debe redirigir correctamente" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="Pruebas en &lt;ProblemsUser /&gt;" errors="0" failures="0" skipped="0" timestamp="2022-06-30T13:12:59" time="2.563" tests="5">
+    <testcase classname="Pruebas en &lt;ProblemsUser /&gt; debe de mostrar &lt;ProblemsUser /&gt; correctamente" name="Pruebas en &lt;ProblemsUser /&gt; debe de mostrar &lt;ProblemsUser /&gt; correctamente" time="0.019">
+    </testcase>
+    <testcase classname="Pruebas en &lt;ProblemsUser /&gt; boton chatear debe redirigir correctamente" name="Pruebas en &lt;ProblemsUser /&gt; boton chatear debe redirigir correctamente" time="0.006">
+    </testcase>
+    <testcase classname="Pruebas en &lt;ProblemsUser /&gt; boton chatear debe redirigir correctamente" name="Pruebas en &lt;ProblemsUser /&gt; boton chatear debe redirigir correctamente" time="0.002">
+    </testcase>
+    <testcase classname="Pruebas en &lt;ProblemsUser /&gt; boton chatear debe redirigir correctamente" name="Pruebas en &lt;ProblemsUser /&gt; boton chatear debe redirigir correctamente" time="0.002">
+    </testcase>
+    <testcase classname="Pruebas en &lt;ProblemsUser /&gt; boton chatear debe redirigir correctamente" name="Pruebas en &lt;ProblemsUser /&gt; boton chatear debe redirigir correctamente" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Pruebas en &lt;FooterInit /&gt;" errors="0" failures="0" skipped="0" timestamp="2022-06-30T13:12:59" time="2.902" tests="5">
+    <testcase classname="Pruebas en &lt;FooterInit /&gt; debe de mostrar &lt;FooterInit /&gt; correctamente" name="Pruebas en &lt;FooterInit /&gt; debe de mostrar &lt;FooterInit /&gt; correctamente" time="0.012">
+    </testcase>
+    <testcase classname="Pruebas en &lt;FooterInit /&gt; boton de red social instagram debe redirigir correctamente" name="Pruebas en &lt;FooterInit /&gt; boton de red social instagram debe redirigir correctamente" time="0.007">
+    </testcase>
+    <testcase classname="Pruebas en &lt;FooterInit /&gt; boton de red social facebook debe redirigir correctamente" name="Pruebas en &lt;FooterInit /&gt; boton de red social facebook debe redirigir correctamente" time="0.002">
+    </testcase>
+    <testcase classname="Pruebas en &lt;FooterInit /&gt; boton de red social twitter debe redirigir correctamente" name="Pruebas en &lt;FooterInit /&gt; boton de red social twitter debe redirigir correctamente" time="0.002">
+    </testcase>
+    <testcase classname="Pruebas en &lt;FooterInit /&gt; boton de red social linkedin debe redirigir correctamente" name="Pruebas en &lt;FooterInit /&gt; boton de red social linkedin debe redirigir correctamente" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="Pruebas en &lt;HeaderInit /&gt;" errors="0" failures="0" skipped="0" timestamp="2022-06-30T13:12:59" time="2.938" tests="2">
+    <testcase classname="Pruebas en &lt;HeaderInit /&gt; debe de mostrar &lt;HeaderInit /&gt; correctamente" name="Pruebas en &lt;HeaderInit /&gt; debe de mostrar &lt;HeaderInit /&gt; correctamente" time="0.025">
+    </testcase>
+    <testcase classname="Pruebas en &lt;FooterInit /&gt; debe de mostrar &lt;FooterInit /&gt; correctamente" name="Pruebas en &lt;FooterInit /&gt; debe de mostrar &lt;FooterInit /&gt; correctamente" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="Pruebas en &lt;NotFound /&gt;" errors="0" failures="0" skipped="0" timestamp="2022-06-30T13:12:59" time="3.022" tests="1">
+    <testcase classname="Pruebas en &lt;NotFound /&gt; debe de mostrar &lt;NotFound /&gt; correctamente" name="Pruebas en &lt;NotFound /&gt; debe de mostrar &lt;NotFound /&gt; correctamente" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="Pruebas en &lt;HeaderInit /&gt;" errors="0" failures="0" skipped="0" timestamp="2022-06-30T13:12:59" time="3.15" tests="6">
+    <testcase classname="Pruebas en &lt;HeaderInit /&gt; debe de mostrar &lt;HeaderInit /&gt; correctamente" name="Pruebas en &lt;HeaderInit /&gt; debe de mostrar &lt;HeaderInit /&gt; correctamente" time="0.007">
+    </testcase>
+    <testcase classname="Pruebas en &lt;HeaderInit /&gt; el logo debe redirigir correctamente" name="Pruebas en &lt;HeaderInit /&gt; el logo debe redirigir correctamente" time="0.006">
+    </testcase>
+    <testcase classname="Pruebas en &lt;HeaderInit /&gt; boton de soporte debe redirigir correctamente" name="Pruebas en &lt;HeaderInit /&gt; boton de soporte debe redirigir correctamente" time="0.001">
+    </testcase>
+    <testcase classname="Pruebas en &lt;HeaderInit /&gt; boton de olvido de contraseña debe redirigir correctamente" name="Pruebas en &lt;HeaderInit /&gt; boton de olvido de contraseña debe redirigir correctamente" time="0.001">
+    </testcase>
+    <testcase classname="Pruebas en &lt;HeaderInit /&gt; boton chatear debe redirigir correctamente" name="Pruebas en &lt;HeaderInit /&gt; boton chatear debe redirigir correctamente" time="0">
+    </testcase>
+    <testcase classname="Pruebas en &lt;HeaderInit /&gt; boton chatear debe redirigir correctamente" name="Pruebas en &lt;HeaderInit /&gt; boton chatear debe redirigir correctamente" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Pruebas en &lt;InternalServerError /&gt;" errors="0" failures="0" skipped="0" timestamp="2022-06-30T13:13:01" time="0.577" tests="1">
+    <testcase classname="Pruebas en &lt;InternalServerError /&gt; debe de mostrar &lt;InternalServerError /&gt; correctamente" name="Pruebas en &lt;InternalServerError /&gt; debe de mostrar &lt;InternalServerError /&gt; correctamente" time="0.005">
+    </testcase>
+  </testsuite>
+</testsuites>

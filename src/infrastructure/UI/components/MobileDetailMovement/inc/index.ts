@@ -1,0 +1,5 @@
+export { default as MobileMovementTable } from './MobileMovementTable'
+export { default as MobileDetailTable } from './MobileDetailTable'
+export { default as MobileDetailCredit } from './MobileDetailCredit'
+export { default as MobileDetailScheduled } from './MobileDetailScheduled'
+export { default as MobileDetailSaving } from './MobileDetailSaving'

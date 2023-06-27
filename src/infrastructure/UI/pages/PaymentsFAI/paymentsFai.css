@@ -1,0 +1,12 @@
+.options-in-loading{
+  min-width:50%
+}
+.options-in-loading div{
+  padding: 0px !important;
+}
+.modal-base-footer button{
+  width: 50% !important;
+}
+.text-confirmation-pay{
+  white-space: normal !important;
+}

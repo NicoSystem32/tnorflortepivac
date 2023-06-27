@@ -1,0 +1,322 @@
+@import '~bootstrap/scss/bootstrap';
+
+// Montserrat fonts
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Montserrat-Regular.ttf") format("woff2");
+  font-family: "Montserrat-Regular";
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Montserrat-Medium.ttf") format("woff2");
+  font-family: "Montserrat-Medium";
+  font-weight: 500;
+}
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Montserrat-SemiBold.ttf") format("woff2");
+  font-family: "Montserrat-SemiBold";
+  font-weight: 600;
+}
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Montserrat-Bold.ttf") format("woff2");
+  font-family: "Montserrat-Bold";
+  font-weight: 700;
+}
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Montserrat-ExtraBold.ttf") format("woff2");
+  font-family: "Montserrat-ExtraBold";
+  font-weight: 800;
+}
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Montserrat-Regular.ttf") format("woff2");
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Montserrat-Medium.ttf") format("woff2");
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Montserrat-SemiBold.ttf") format("woff2");
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Montserrat-Bold.ttf") format("woff2");
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Montserrat-ExtraBold.ttf") format("woff2");
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Helvetica fonts
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Helvetica.ttf") format("woff2");
+  font-family: "Helvetica-Regular";
+  font-weight: 800;
+}
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Helvetica-Bold.ttf") format("woff2");
+  font-family: "Helvetica-Bold";
+  font-weight: 800;
+}
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Helvetica.ttf") format("woff2");
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/Helvetica-Bold.ttf") format("woff2");
+  font-family: "Helvetica";
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/kredit back.otf") format("woff2");
+  font-family: "Kredit-Bold";
+  font-weight: 400;
+}
+@font-face {
+  src: url("../src/infrastructure/UI/assets/sources/kredit front.otf") format("woff2");
+  font-family: "Kredit-Normal";
+  font-weight: 400;
+}
+
+
+:root {
+  --font-main: 'Montserrat', sans-serif;
+  --font-main-regular: "Montserrat-Regular";
+  --font-main-medium: "Montserrat-Medium";
+  --font-main-semibold: "Montserrat-SemiBold";
+  --font-main-bold: "Montserrat-Bold";
+  --font-main-extrabold: "Montserrat-ExtraBold";
+  --font-secundary: "Helvetica";
+  --font-secundary-regular: "Helvetica-Regular";
+  --font-secundary-bold: "Helvetica-Bold";
+
+  --alert-color: #D5342F;
+  --alert-second: #AACFF5;
+  --approved-color: #55B948;
+  --approved-color-dark: #009949;
+  --background-color: #FFFFFF;
+  --background-secundary: #FAFBFD;
+  --button-color: #26346F;
+  --button-color-dark: #0A1634;
+  --button-color-hover: #19234B;
+  --disabled-color: #94A5B0;
+  --disabled-color2: #929292;
+  --dominant-color: #FACD34;
+  --dominant-color-dark: #F5A50B;
+  --dominant-color-ligth: #FBDF00;
+  --error-color: #FB2F3D;
+  --error-cover: #f1818954;
+  --footer-color: #425453;
+  --header-color: #F2F2F2;
+  --header-botton-color: #53595A;
+  --place-holder-color: #787878;
+  --shadow-color: #00000029;
+  --sub-dominant-color: #512F8B;
+  --sub-dominant-color-ligth: #512F8B80;
+  --sub-dominant-color-href: #593990;
+  --modal-base-overlay: #DEDEDE;
+  --text-modal1: #07539F;
+  --text-opacity1: #F2F2F2;
+  --text-opacity2: #E6E7E8;
+  --text-opacity3: #00000029;
+  --text-opacity4: #C4C2C2;
+  --text-opacity5: #707070;
+  --text-opacity6: #717171;
+  --text-opacity7: #444444;
+  --text-opacity8: #090909;
+  --text-opacity9: #000000;
+  --text-opacity10: #070500;
+  --text-opacity11: #E4E4E4;
+  --text-opacity12: #F1F1F1;
+  --text-opacity13: #090600;
+  --text-opacity14: #030200;
+
+  /* icons */
+  --url-close-icon: url(https://cavipetrolstorageaccount.blob.core.windows.net/assets/Icons/remove-circle.svg);
+  --url-close-icon-simple: url(https://cavipetrolstorageaccount.blob.core.windows.net/assets/Icons/icon-close-simple.svg);
+  --url-wallet-icon: url(https://storageaccountcavportal.blob.core.windows.net/assets/Icons/wallet.svg);
+  --url-arrow-down-yellow-icon: url(https://storageaccountcavportal.blob.core.windows.net/assets/Icons/arrow-down-yellow.svg);
+  --url-wallet-purple-icon: url(https://storageaccountcavportal.blob.core.windows.net/assets/Icons/wallet-purple-circle.svg);
+  --icon-wallet-header: url(https://storageaccountcavportal.blob.core.windows.net/assets/Icons/wallet-yellow-circle.svg);
+  --url-chart-icon: url(https://storageaccountcavportal.blob.core.windows.net/assets/Icons/chart.svg);
+  --url-credit-card-icon: url(https://storageaccountcavportal.blob.core.windows.net/assets/Icons/credit-card.svg);
+  --url-product-icon: url(https://storageaccountcavportal.blob.core.windows.net/assets/Icons/product.svg);
+  --url-dollar-icon: url(https://storageaccountcavportal.blob.core.windows.net/assets/Icons/dollar.svg);
+  --url-palette-icon: url(https://storageaccountcavportal.blob.core.windows.net/assets/Icons/icon-palette.svg);
+  --url-ios-close-icon: url(https://storageaccountcavportal.blob.core.windows.net/assets/Icons/ios-close.svg);
+  // images
+  --url-banner-login: url(https://storageaccountcavportal.blob.core.windows.net/assets/networks.png);
+  --url-login-form-icon: url(https://storageaccountcavportal.blob.core.windows.net/assets/login-form.png);
+
+
+  //Inicio Codigo de Configuración
+  //Tema por defecto
+  --dominant-color: #FACD34;
+  --dominant-color-dark: #F5A50B;
+  --dominant-color-ligth: #FBDF00;
+
+  --button-color: #26346F;
+  --button-color-dark: #0A1634;
+  --button-color-hover: #19234B;
+
+  --sub-dominant-color: #512F8B;
+  --sub-dominant-color-ligth: #512F8B80;
+  --sub-dominant-color-href: #593990;
+
+  --img-theme: url(https://cavipetrolstorageaccount.blob.core.windows.net/assets/icon-theme1.png);
+  --img-elipse-desk: url(../src/infrastructure/UI/assets/images/elipse-desk.png);
+  --img-elipse-mobile: url(../src/infrastructure/UI/assets/images/elipse.png);
+  --img-form-login: var(--url-login-form-icon);
+  --img-register-header: url(../src/infrastructure/UI/assets/images/register.png);
+  --img-register-hover-header: url(../src/infrastructure/UI/assets/images/register-hover.png);
+  --img-banner-login: var(--url-banner-login);
+  --icon-money-header: var(--url-credit-card-icon);
+  --icon-product-header: var(--url-product-icon);
+  --icon-chart-header: var(--url-chart-icon);
+  --icon-credit-header: var(--url-dollar-icon);
+  --icon-wallet-hover-header: var(--url-wallet-purple-icon);
+
+  //Tema amarillo
+  --dominant-color-theme1: #FACD34;
+  --dominant-color-dark-theme1: #F5A50B;
+  --dominant-color-ligth-theme1: #FBDF00;
+
+  --button-color-theme1: #26346F;
+  --button-color-dark-theme1: #0A1634;
+  --button-color-hover-theme1: #19234B;
+
+  --sub-dominant-color-theme1: #512F8B;
+  --sub-dominant-color-ligth-theme1: #512F8B80;
+  --sub-dominant-color-href-theme1: #593990;
+
+  --img-theme-theme1: url(https://cavipetrolstorageaccount.blob.core.windows.net/assets/icon-theme1.png);
+  --img-elipse-desk-theme1: url(../src/infrastructure/UI/assets/images/elipse-desk.png);
+  --img-elipse-mobile-theme1: url(../src/infrastructure/UI/assets/images/elipse.png);
+  --img-form-login-theme1: var(--url-login-form-icon);
+  --img-register-header-theme1: url(../src/infrastructure/UI/assets/images/register.png);
+  --img-register-hover-header-theme1: url(../src/infrastructure/UI/assets/images/register-hover.png);
+  --img-banner-login-theme1: var(--url-banner-login);
+  --icon-money-header-theme1: var(--url-credit-card-icon);
+  --icon-product-header-theme1: var(--url-product-icon);
+  --icon-chart-header-theme1: var(--url-chart-icon);
+  --icon-credit-header-theme1: var(--url-dollar-icon);
+  --icon-wallet-hover-header-theme1: var(--url-wallet-purple-icon);
+
+  //Tema green
+  --dominant-color-theme2: #FACD34;
+  --dominant-color-dark-theme2: #F5A50B;
+  --dominant-color-ligth-theme2: #FBDF00;
+
+  --button-color-theme2: #512F8B;
+  --button-color-dark-theme2: #512F8B80;
+  --button-color-hover-theme2: #593990;
+
+  --sub-dominant-color-theme2: #0A9B48;
+  --sub-dominant-color-ligth-theme2: #29D57F;
+  --sub-dominant-color-href-theme2: #55B948;
+
+  --img-theme-theme2: url(https://cavipetrolstorageaccount.blob.core.windows.net/assets/icon-theme2.png);
+  --img-elipse-desk-theme2: url(../src/infrastructure/UI/assets/images/elipse-desk.png);
+  --img-elipse-mobile-theme2: url(../src/infrastructure/UI/assets/images/elipse.png);
+  --img-form-login-theme2: url(https://cavipetrolstorageaccount.blob.core.windows.net/assets/login-form-t2.png);
+  --img-register-header-theme2: url(../src/infrastructure/UI/assets/images/register.png);
+  --img-register-hover-header-theme2: url(../src/infrastructure/UI/assets/images/register-hover.png);
+  --img-banner-login-theme2: url(https://cavipetrolstorageaccount.blob.core.windows.net/assets/login-banner-t2.png);
+  --icon-money-header-theme2: var(--url-credit-card-icon);
+  --icon-product-header-theme2: var(--url-product-icon);
+  --icon-chart-header-theme2: var(--url-chart-icon);
+  --icon-credit-header-theme2: var(--url-dollar-icon);
+  --icon-wallet-hover-header-theme2: url(https://cavipetrolstorageaccount.blob.core.windows.net/assets/billetera-t2.png);
+
+  //Tema azul
+  --dominant-color-theme3: #FACD34;
+  --dominant-color-dark-theme3: #F5A50B;
+  --dominant-color-ligth-theme3: #FBDF00;
+
+  --button-color-theme3: #512F8B;
+  --button-color-dark-theme3: #512F8B80;
+  --button-color-hover-theme3: #593990;
+
+  --sub-dominant-color-theme3: #35B8BD;
+  --sub-dominant-color-ligth-theme3: #0d969b;
+  --sub-dominant-color-href-theme3: #3dd9df;
+
+  --img-theme-theme3: url(https://cavipetrolstorageaccount.blob.core.windows.net/assets/icon-theme3.png);
+  --img-elipse-desk-theme3: url(../src/infrastructure/UI/assets/images/elipse-desk.png);
+  --img-elipse-mobile-theme3: url(../src/infrastructure/UI/assets/images/elipse.png);
+  --img-form-login-theme3: url(https://cavipetrolstorageaccount.blob.core.windows.net/assets/login-form-t3.png);
+  --img-register-header-theme3: url(../src/infrastructure/UI/assets/images/register.png);
+  --img-register-hover-header-theme3: url(../src/infrastructure/UI/assets/images/register-hover.png);
+  --img-banner-login-theme3: url(https://cavipetrolstorageaccount.blob.core.windows.net/assets/login-banner-t3.png);
+  --icon-money-header-theme3: var(--url-credit-card-icon);
+  --icon-product-header-theme3: var(--url-product-icon);
+  --icon-chart-header-theme3: var(--url-chart-icon);
+  --icon-credit-header-theme3: var(--url-dollar-icon);
+  --icon-wallet-hover-header-theme3: url(https://cavipetrolstorageaccount.blob.core.windows.net/assets/billetera-t3.png);
+
+  //Fin Codigo de Configuración
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.center{
+  text-align: center;
+  justify-content: center;
+  padding: 3% 0;
+}
+
+.carousel {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grecaptcha-badge{
+  z-index: 1 !important;
+}
+.container{
+  max-width: 100vw !important;
+}

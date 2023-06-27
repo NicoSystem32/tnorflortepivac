@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <NotFound /> debe de mostrar <NotFound /> correctamente 1`] = `
+<div
+  className="content-404"
+>
+  <div
+    className="content-img-404"
+  >
+    <img
+      alt=""
+      className="img-404"
+      src="big-404.png"
+      srcSet="big-404.svg"
+    />
+  </div>
+  <div
+    className="content-info-404"
+  >
+    <img
+      alt=""
+      src=""
+    />
+    <p
+      className="text-biger-type content-run-404"
+    >
+      4
+      <span
+        className="text-yellow"
+      >
+        0
+      </span>
+      4
+    </p>
+    <p
+      className="text-secundari-type"
+    >
+      Parece que esta página ahorró lo suficiente y se fue de vacaciones,
+      <strong>
+         puede que esta página este en mantenimiento o haya sido eliminada,
+      </strong>
+       regresa al home e intenta mas tarde.
+    </p>
+    <div
+      className="content-run-404"
+    >
+      <Button
+        active={false}
+        className="btn-redirection btn-global"
+        disabled={false}
+        onClick={[Function]}
+        variant="primary"
+      >
+        Volver al home
+      </Button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,372 @@
+.btn-rect{
+    border-radius: 5px !important;
+}
+.card-product-open{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 30% 70%;
+    padding: 3% 5%;
+    border: 1px solid var(--text-opacity4);
+    height: 112px;
+    width: 100%;
+    border-radius: 10px;
+    grid-template-areas: "iconCardOP titleCardOP" "iconCardOP textCardOP";
+    cursor: pointer;
+    img{
+        grid-area: iconCardOP;
+        margin: auto auto auto 0;
+        max-width: 35px;
+    }
+    p.title-card-op{
+        grid-area: titleCardOP;
+        font-family: var(--font-main-semibold);
+        font-size: 14px;
+        color: var(--text-opacity9);
+    }
+    p.text-card-op{
+        grid-area: textCardOP;
+        font-family: var(--font-secundary-regular);
+        font-size: 13px;
+        color: var(--text-opacity9);
+    }
+}
+.check-open-product{
+    display: flex;
+    align-items: start;
+    padding: 2% 4% 0 4%;
+    cursor: pointer;
+    p{
+        font-family: var(--font-main-medium);
+        font-size: 12px;
+        color: var(--header-botton-color);
+    }
+    a{
+        color: var(--sub-dominant-color) !important;
+    }
+    .form-check-input {
+        width: 25px !important;
+        height: 25px !important;
+    }
+}
+.content-card-product-open{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 5%;
+    gap: 20px;
+    justify-content: start;
+    min-height: 60vh;
+}
+.content-detail-cto.payments.product-open.step3{
+    padding: 0 !important;
+    width: 100%;
+    margin: auto;
+}
+.content-detail-po{
+    background-color: var(--background-secundary);
+    border-radius: 10px;
+    padding: 10px;
+}
+.content-radio-open{
+    display: flex;
+    gap: 35%;
+}
+.content-inputs-po{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.hr-detail-po{
+    height: 4px;
+    color: white;
+}
+.input-group>.form-select.simple{
+    padding-left: 0 !important;
+    height: 50px;
+    border: 1px solid var(--text-opacity4);
+    border-left: none;
+    border-radius: 0px 7px 7px 0px !important;
+    opacity: 1;
+    ::placeholder{
+        font-family: var(--font-secundary-regular) !important;
+        font-size: 16px !important;
+    }
+}
+.input-group:hover .form-select{
+    border-color: var(--dominant-color-dark);
+    box-shadow: none !important;
+}
+.modal-term .modal-dialog{
+    max-width: 800px !important;
+}
+.modal-term .modal-body{
+    width: 100% !important;
+}
+.label-product-open{
+    font-family: var(--font-secundary-regular);
+    color: var(--dominant-color-dark);
+    font-size: 13px;
+}
+.radio-po .form-check-input{
+    width: 19px !important;
+    height: 19px !important;
+    position: absolute !important;
+    bottom: 5px !important;
+}
+.subtitle-product-open{
+    font-family: var(--font-main-regular);
+    font-size: 16px;
+    color: var(--text-opacity10);
+    strong{
+        color: var(--dominant-color-dark);
+    }
+}
+.text-modal-login.term{
+    text-align: start !important;
+}
+.text-title-po{
+    font-family: var(--font-main-medium);
+    font-size: 16px;
+    color: var(--header-botton-color);
+    padding-bottom: 7px;
+    border-bottom: 2px solid white;
+}
+.text-subtitle-po{
+    font-family: var(--font-secundary-regular);
+    font-size: 13px;
+    color: var(--header-botton-color);
+}
+.text-value-po{
+    font-family: var(--font-main-semibold);
+    font-size: 20px;
+    color: var(--sub-dominant-color);
+}
+//Desktop
+@media (min-width:1180px) and (max-width: 1400px){
+    .btn-options-po{
+        display: flex !important;
+        flex-direction: row-reverse !important;
+        gap: 4% !important;
+        button{
+            height: 50px !important;
+        }
+    }
+    .card-product-open{
+        border: none;
+        height: 128px;
+        box-shadow: 0px 3px 6px var(--text-opacity3);
+        grid-template-rows: 42% 58%;
+        width: 100%;
+        p.title-card-op{
+            font-family: var(--font-main-bold);
+            font-size: 18px;
+        }
+        img{
+            max-width: none;
+        }
+    }
+    .check-open-product{
+        display: flex;
+        align-items: start;
+        padding: 0 2%;
+        p{
+            font-family: var(--font-main-medium);
+            font-size: 14px;
+            color: var(--header-botton-color);
+        }
+        a{
+            color: var(--sub-dominant-color) !important;
+        }
+        .form-check-input {
+            width: 25px !important;
+            height: 25px !important;
+        }
+    }
+    .content-card-product-open {
+        flex-direction: row;
+        padding: 0 5%;
+        gap: 50px;
+        min-height: 40vh;
+    }
+    .content-detail-cto.payments.product-open{
+        padding: 30px !important;
+        width: 65% !important;
+        margin: auto;
+    }
+    .content-detail-cto.payments.product-open.step3{
+        padding: 30px !important;
+        width: 100% !important;
+        margin: auto;
+    }
+    .content-detail-po{
+        margin-left: 12%;
+        border-radius: 10px;
+        border: 1px solid var(--text-opacity11);
+        padding: 4%;
+        margin-bottom: 35px;
+        div{
+            display: flex;
+            gap: 50px;
+        }
+    }
+    .content-option-pay-dcto.payments.open .options-pay-dcto{
+        width: 100% !important;
+        height: 109px !important;
+    }
+    .content-radio-open{
+        gap: 25%;
+    }
+    .content-sub-po{
+        display: flex;
+        gap: 45px;
+    }
+    .inside-step2{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 50% 30% 20%;
+        grid-template-areas: "inputPo detailPo" "inputPo conditionsPo" "btnPo btnPo";
+        .content-inputs-po{
+            grid-area: inputPo;
+        }
+        .content-detail-po{
+            grid-area: detailPo;
+        }
+        .content-btn-form{
+            grid-area: btnPo;
+        }
+        .conditions-po{
+            grid-area: conditionsPo;
+            cursor: pointer !important;
+        }
+    }
+    .modal-term .modal-body{
+        width: 794px !important;
+    }
+    .radio-po .form-check-input{
+        width: 19px !important;
+        height: 19px !important;
+        position: absolute !important;
+        bottom: 5px !important;
+    }
+    .text-subtitle-po{
+        font-size: 15px;
+    }
+    .text-title-po{
+        font-size: 18px;
+    }
+    .text-value-po{
+        font-size: 22px;
+    }
+}
+//Gigant
+@media (min-width:1400px){
+    .btn-options-po{
+        display: flex !important;
+        flex-direction: row-reverse !important;
+        gap: 10% !important;
+        button{
+            height: 50px !important;
+        }
+    }
+    .card-product-open{
+        border: none;
+        height: 140px;
+        box-shadow: 0px 3px 6px var(--text-opacity3);
+        width: 100%;
+        padding: 1% 4%;
+        p.text-card-op, p.title-card-op{
+            font-size: 18px;
+        }
+        img{
+            max-width: none;
+        }
+    }
+    .check-open-product{
+        display: flex;
+        align-items: start;
+        padding: 0 2%;
+        p{
+            font-family: var(--font-main-medium);
+            font-size: 14px;
+            color: var(--header-botton-color);
+        }
+        a{
+            color: var(--sub-dominant-color) !important;
+        }
+        .form-check-input {
+            width: 25px !important;
+            height: 25px !important;
+        }
+    }
+    .content-card-product-open {
+        flex-direction: row;
+        padding: 0 5%;
+        gap: 50px;
+        min-height: 40vh;
+    }
+    .content-detail-cto.payments.product-open{
+        padding: 30px !important;
+        width: 65% !important;
+        margin: auto;
+    }
+    .content-detail-cto.payments.product-open.step3{
+        padding: 30px !important;
+        width: 100% !important;
+        margin: auto;
+    }
+    .content-detail-po{
+        border: 1px solid var(--text-opacity11);
+        padding: 4%;
+        margin-bottom: 35px;
+    }
+    .content-option-pay-dcto.payments.open .options-pay-dcto{
+        width: 100% !important;
+        height: 109px !important;
+    }
+    .content-radio-open{
+        gap: 15%;
+    }
+    .content-sub-po{
+        display: flex;
+        gap: 45px;
+    }
+    .inside-step2{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 50% 30% 20%;
+        grid-template-areas: "inputPo detailPo" "inputPo conditionsPo" "btnPo btnPo";
+        .content-inputs-po{
+            grid-area: inputPo;
+        }
+        .content-detail-po{
+            grid-area: detailPo;
+        }
+        .content-btn-form{
+            grid-area: btnPo;
+        }
+        .conditions-po{
+            grid-area: conditionsPo;
+            cursor: pointer !important;
+            color: var(--sub-dominant-color) !important;
+        }
+    }
+    .modal-term .modal-body{
+        width: 794px !important;
+    }
+    .radio-po .form-check-input{
+        width: 19px !important;
+        height: 19px !important;
+        position: absolute !important;
+        bottom: 5px !important;
+    }
+    .text-subtitle-po{
+        font-size: 15px;
+    }
+    .text-title-po{
+        font-size: 18px;
+    }
+    .text-value-po{
+        font-size: 22px;
+    }
+}

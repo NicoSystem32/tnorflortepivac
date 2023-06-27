@@ -1,0 +1,6 @@
+export { productsRepository } from './products'
+export { authRepository } from './auth'
+export { manageRepository } from './manage'
+export { transactionRepository } from './transaction'
+export { onboardingRepository } from './onboarding'
+export { tcRepository } from './tc'

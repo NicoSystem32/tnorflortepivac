@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <InternalServerError /> debe de mostrar <InternalServerError /> correctamente 1`] = `
+<div
+  className="content-sg content-500"
+>
+  <div
+    className="content-img-500"
+  >
+    <img
+      alt=""
+      className="img-500"
+      src="big-500.png"
+      srcSet="big-500.svg"
+    />
+  </div>
+  <div
+    className="content-info-500"
+  >
+    <img
+      alt=""
+      src=""
+    />
+    <p
+      className="text-gigant-type"
+    >
+      Algo salió mal
+    </p>
+    <p
+      className="text-secundari-type"
+    >
+      En este momento no podemos procesar tu solicitud, por favor intenta de nuevo más tarde, estamos trabajando para solucionarlo.
+    </p>
+  </div>
+</div>
+`;

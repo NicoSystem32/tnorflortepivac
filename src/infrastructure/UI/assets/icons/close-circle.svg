@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <g id="Icon_ionic-ios-close-circle-outline" data-name="Icon ionic-ios-close-circle-outline" transform="translate(0)">
+    <path id="Trazado_415" data-name="Trazado 415" d="M17.967,17.15l-1.9-1.9,1.9-1.9a.576.576,0,0,0-.815-.815l-1.9,1.9-1.9-1.9a.576.576,0,1,0-.815.815l1.9,1.9-1.9,1.9a.557.557,0,0,0,0,.815.572.572,0,0,0,.815,0l1.9-1.9,1.9,1.9a.579.579,0,0,0,.815,0A.572.572,0,0,0,17.967,17.15Z" transform="translate(-7.752 -7.75)" fill="#f5a50b"/>
+    <path id="Trazado_416" data-name="Trazado 416" d="M10.875,4.385a6.488,6.488,0,1,1-4.59,1.9,6.447,6.447,0,0,1,4.59-1.9m0-1.01a7.5,7.5,0,1,0,7.5,7.5,7.5,7.5,0,0,0-7.5-7.5Z" transform="translate(-3.375 -3.375)" fill="#f5a50b"/>
+  </g>
+</svg>

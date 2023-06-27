@@ -1,0 +1,5 @@
+export { default as TarDetailTitle } from './TarDetailTitle'
+export { default as TarDetailAlert } from './TarDetailAlert'
+export { default as TarDetailHead } from './TarDetailHead'
+export { default as TarDetailForm } from './TarDetailForm'
+export { default as TarDetailDangerMessages } from './TarDetailDangerMessages'

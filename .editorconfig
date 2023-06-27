@@ -1,0 +1,36 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+indent_style = tab
+indent_size = 4
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = false
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{html,css,scss,sass,js,jsx,ts,tsx}]
+charset = utf-8
+
+# 4 space indentation
+[src/**/*.{js,jsx,ts,tsx}]
+indent_style = space
+indent_size = 4
+
+# scss files
+[*.{css,scss}]
+indent_style = space
+indent_size = 2
+
+# Matches the exact files either package.json or .travis.yml
+[{package.json,.babelrc,.travis.yml,tsconfig.json,config.yml,.eslintrc,.eslintrc.json,.stylelintrc.json,webpack.config.js,tsconfig.json,config-overrides.js,tailwind.config.js}]
+indent_style = space
+indent_size = 2
+insert_final_newline = false
+
+[*.md]
+trim_trailing_whitespace = false

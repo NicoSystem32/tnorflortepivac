@@ -1,0 +1,5 @@
+export { default as DetailData } from './DetailData'
+export { default as MovementTable } from './MovementTable'
+export { default as DetailScheduledSaving } from './DetailScheduledSaving'
+export { default as DetailSaving } from './DetailSaving'
+export { default as DetailCredit } from './DetailCredit'

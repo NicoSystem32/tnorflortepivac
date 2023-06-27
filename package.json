@@ -1,0 +1,138 @@
+{
+  "name": "frontend-cavipetrol",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.7",
+    "@microsoft/applicationinsights-react-js": "^3.2.3",
+    "@microsoft/applicationinsights-web": "^2.7.3",
+    "@microsoft/signalr": "^6.0.9",
+    "@react-pdf/renderer": "^2.3.0",
+    "@reactour/mask": "^0.5.1",
+    "@reactour/popover": "^0.5.0",
+    "@reactour/tour": "^3.1.6",
+    "@reactour/utils": "^0.4.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^16.11.22",
+    "assert": "^2.0.0",
+    "axios": "^0.25.0",
+    "bootstrap": "^5.1.3",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "classnames": "^2.3.1",
+    "env-cmd": "^10.1.0",
+    "humps": "^2.0.1",
+    "jest-junit": "^14.0.0",
+    "jwt-decode": "^3.1.2",
+    "local-ip-address": "^1.0.0",
+    "moment": "^2.29.4",
+    "node-cron": "^3.0.0",
+    "process": "^0.11.10",
+    "query-string": "^7.1.1",
+    "ramda": "^0.28.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^14.2.3",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^7.34.2",
+    "react-idle-timer": "^4.6.4",
+    "react-imask": "^6.4.3",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.0",
+    "react-select": "^5.7.0",
+    "react-simple-keyboard": "^3.4.63",
+    "react-timer-hook": "^3.0.5",
+    "redux": "^4.1.2",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "reselect": "^4.1.6",
+    "stream-browserify": "^3.0.0",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.6.2",
+    "usehooks-ts": "^2.9.1",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4",
+    "webpack": "^4.44.2",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:develop": "env-cmd -f .env.develop react-scripts build",
+    "build:preprod": "env-cmd -f .env.preprod react-scripts build",
+    "build:main": "env-cmd -f .env.main react-scripts build",
+    "test": "react-scripts  test",
+    "eject": "react-scripts eject",
+    "dev": "$(npm bin)/react-scripts start",
+    "lint:code": "$(npm bin)/eslint 'src/**/*.{ts,tsx}' --quiet --fix",
+    "stylelint-check": "$(npm bin)/stylelint-config-prettier-check"
+  },
+  "babelMacros": {
+    "styledComponents": {
+      "pure": true,
+      "displayName": true,
+      "meaninglessFileNames": [
+        "index",
+        "styles"
+      ]
+    },
+    "twin": {
+      "preset": "styled-components",
+      "styled": {
+        "import": "default",
+        "from": "styled-components/macro"
+      }
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/humps": "^2.0.2",
+    "@types/ip": "^1.1.0",
+    "@types/ramda": "^0.28.15",
+    "@types/react-google-recaptcha": "^2.1.4",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
+    "customize-cra": "^1.0.0",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.4.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "node-sass": "^7.0.1",
+    "prettier": "2.7.1",
+    "react-app-rewired": "^2.2.1",
+    "redux-mock-store": "^1.5.4",
+    "stylelint": "^14.10.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-prettier": "^2.0.0",
+    "stylelint-processor-styled-components": "^1.10.0",
+    "tailwindcss": "^3.1.8",
+    "twin.macro": "2.8.1",
+    "utility-types": "^3.10.0"
+  },
+  "overrides": {
+    "@types/react": "^16 || ^17",
+    "@types/react-dom": "^16 || ^17"
+  }
+}

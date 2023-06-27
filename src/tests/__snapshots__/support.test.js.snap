@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Support /> debe de mostrar <Support /> correctamente 1`] = `
+<Fragment>
+  <div
+    className="content-global-init"
+  >
+    <div
+      className="content-support"
+    >
+      <div
+        className="content-title-support"
+      >
+        <p
+          className="title-support"
+        >
+          ¿Cómo te
+          <strong
+            className="title-support-hight"
+          >
+             podemos 
+          </strong>
+        </p>
+        <p
+          className="title-support-hight"
+        >
+          ayudar?
+        </p>
+      </div>
+      <div
+        className="content-options-support"
+      >
+        <a
+          className="options-support"
+          href="https://cavipetrol-level3col.nubitalk.com/ClickToInteract/chat.aspx?onecontactInstance=cavipetrol-level3col&motive=CHAT%20%E2%80%93%20BOT"
+          id="support-chat"
+          target="_blank"
+        >
+          <img
+            alt="Servicio al asociado"
+            className="support-img chat"
+            src="message.png"
+            srcSet="message.svg"
+          />
+          <p
+            className="text-support"
+          >
+            <strong>
+              Chatea 
+            </strong>
+            con servicio al asociado
+          </p>
+        </a>
+        <a
+          className="options-support"
+          href="https://api.whatsapp.com/send?phone=573219109204"
+          id="support-whatsapp"
+          target="_blank"
+        >
+          <img
+            className="support-img whatsapp"
+            src="whatsapp.png"
+            srcSet="whatsapp.svg"
+          />
+          <p
+            className="text-support"
+          >
+            <strong>
+              Escríbenos a 
+            </strong>
+            nuestro Whatsapp
+          </p>
+        </a>
+        <a
+          className="options-support"
+          href="mailto:servicio.cliente@cavipetrol.com"
+          id="support-email"
+          target="_blank"
+        >
+          <img
+            className="support-img email"
+            src="email.png"
+            srcSet="email.svg"
+          />
+          <p
+            className="text-support"
+          >
+            <strong>
+              Envíanos 
+            </strong>
+            un correo
+          </p>
+        </a>
+      </div>
+      <div
+        className="content-contact"
+      >
+        <div
+          className="content-title-contact"
+        >
+          <img
+            className="support-img chat"
+            src="phone.png"
+            srcSet="phone.svg"
+          />
+          <p
+            className="text-support"
+          >
+            <strong>
+              Sucursal telefónica  
+            </strong>
+            Cavipetrol
+          </p>
+        </div>
+        <div
+          className="content-numbers sect1"
+        >
+          <p
+            className="title-number"
+          >
+            Barrancabermeja
+          </p>
+          <p
+            className="number"
+          >
+            (60+7) 697 3528
+          </p>
+          <p
+            className="title-number"
+          >
+            Cali
+          </p>
+          <p
+            className="number"
+          >
+            (60+2) 489 3620
+          </p>
+        </div>
+        <div
+          className="content-numbers sect2"
+        >
+          <p
+            className="title-number"
+          >
+            Medellín
+          </p>
+          <p
+            className="number"
+          >
+            (60+4) 604 3238
+          </p>
+          <p
+            className="title-number"
+          >
+            Yopal
+          </p>
+          <p
+            className="number"
+          >
+            (60+8) 6333579
+          </p>
+        </div>
+        <div
+          className="content-numbers sect3"
+        >
+          <p
+            className="title-number"
+          >
+            Bogotá
+          </p>
+          <p
+            className="number"
+          >
+            (60+1) 745 2322
+          </p>
+          <p
+            className="title-number"
+          >
+            Cartagena
+          </p>
+          <p
+            className="number"
+          >
+            (60+5) 693 2471
+          </p>
+        </div>
+        <div
+          className="content-numbers sect4"
+        >
+          <p
+            className="title-number"
+          >
+            Neiva
+          </p>
+          <p
+            className="number"
+          >
+            (60+8) 863 0771
+          </p>
+          <p
+            className="title-number"
+          >
+            Orito, Tibú y Rubiales
+          </p>
+          <p
+            className="number"
+          >
+            320 889 9981
+          </p>
+        </div>
+        <div
+          className="content-numbers sect5"
+        >
+          <p
+            className="title-number"
+          >
+            Bucaramanga
+          </p>
+          <p
+            className="number"
+          >
+            (60+7) 697 3231
+          </p>
+          <p
+            className="title-number"
+          >
+            Cúcuta
+          </p>
+          <p
+            className="number"
+          >
+            (60+7) 595 5919
+          </p>
+        </div>
+        <div
+          className="content-numbers sect6"
+        >
+          <p
+            className="title-number"
+          >
+            Villavicencio
+          </p>
+          <p
+            className="number"
+          >
+            (60+8) 6784290
+          </p>
+          <p
+            className="title-number-special"
+          >
+            Línea nacional
+          </p>
+          <p
+            className="number"
+          >
+            018000 1 80434
+          </p>
+        </div>
+        <div
+          className="content-numbers sect1-mobile"
+        >
+          <p
+            className="title-number"
+          >
+            Barrancabermeja
+          </p>
+          <p
+            className="number"
+          >
+            (60+7) 697 3528
+          </p>
+          <p
+            className="title-number"
+          >
+            Bucaramanga
+          </p>
+          <p
+            className="number"
+          >
+            (60+7) 697 3231
+          </p>
+          <p
+            className="title-number"
+          >
+            Cartagena
+          </p>
+          <p
+            className="number"
+          >
+            (60+5) 693 2471
+          </p>
+          <p
+            className="title-number"
+          >
+            Medellín
+          </p>
+          <p
+            className="number"
+          >
+            (60+4) 604 3238
+          </p>
+          <p
+            className="title-number"
+          >
+            Villavicencio
+          </p>
+          <p
+            className="number"
+          >
+            (60+8) 6784290
+          </p>
+          <p
+            className="title-number"
+          >
+            Orito, Tibú y Rubiales
+          </p>
+          <p
+            className="number"
+          >
+            320 889 9981
+          </p>
+        </div>
+        <div
+          className="content-numbers sect2-mobile"
+        >
+          <p
+            className="title-number"
+          >
+            Bogotá
+          </p>
+          <p
+            className="number"
+          >
+            (60+1) 745 2322
+          </p>
+          <p
+            className="title-number"
+          >
+            Cali
+          </p>
+          <p
+            className="number"
+          >
+            (60+2) 489 3620
+          </p>
+          <p
+            className="title-number"
+          >
+            Cúcuta
+          </p>
+          <p
+            className="number"
+          >
+            (60+7) 595 5919
+          </p>
+          <p
+            className="title-number"
+          >
+            Neiva
+          </p>
+          <p
+            className="number"
+          >
+            (60+8) 863 0771
+          </p>
+          <p
+            className="title-number"
+          >
+            Yopal
+          </p>
+          <p
+            className="number"
+          >
+            (60+8) 6333579
+          </p>
+          <p
+            className="title-number-special"
+          >
+            Línea nacional
+          </p>
+          <p
+            className="number"
+          >
+            018000 1 80434
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,26 @@
+
+.btn-multi{
+  width: 45%;
+}
+.content-btn-double-multi{
+  display: flex;
+  gap: 10%;
+  padding: 0 5%;
+}
+.modal-blocked{
+  opacity: 0;
+  button, input{
+    pointer-events: none;
+  }
+}
+  .modal-header-multi {
+      grid-template-columns: 100% !important;
+      padding: 1rem 2rem 0 0 !important;
+      margin: 0 !important;
+      .btn-close {
+        background: transparent url(../../../../assets/icons/close-modal.png) center/1em auto no-repeat !important;
+    }
+  }
+  .modal-body-multi{
+  padding: 0 1rem 1rem 1rem !important;
+  }

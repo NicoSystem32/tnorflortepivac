@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="Grupo_1658" data-name="Grupo 1658" transform="translate(-333 -461)">
+    <g id="Elipse_129" data-name="Elipse 129" transform="translate(333 461)" fill="#fff" stroke="#f5a50b" stroke-width="1">
+      <circle cx="13" cy="13" r="13" stroke="none"/>
+      <circle cx="13" cy="13" r="12.5" fill="none"/>
+    </g>
+    <path id="Icon_metro-pencil" data-name="Icon metro-pencil" d="M13.614,1.928a2.188,2.188,0,0,1,2.045,2.307,2.5,2.5,0,0,1-.409,1.384l-.818.923L11.569,3.312l.818-.923a1.89,1.89,0,0,1,1.227-.461ZM3.389,12.539l-.818,4.152,3.681-.923,7.567-8.535L10.955,4ZM11.717,7.17,5.991,13.629l-.7-.8,5.726-6.459Z" transform="translate(336.887 464.69)" fill="#f5a50b"/>
+  </g>
+</svg>

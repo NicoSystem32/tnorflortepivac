@@ -1,0 +1,6 @@
+export { default as Title } from './TitleModule'
+export { default as FormContainer } from './FormContainer'
+export { default as OpenTdcForm } from './OpenTdcForm'
+export { default as OpenTdcModal } from './OpenTdcModal'
+export { default as TyCModal } from './TyCModal'
+export { default as AlertFai } from './AlertFai'

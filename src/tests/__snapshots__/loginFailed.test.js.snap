@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <LoginFailed /> debe de mostrar <LoginFailed /> correctamente 1`] = `
+<div
+  className="content-global-login"
+>
+  <img
+    className="points-img"
+    src="points.png"
+    srcSet="points.svg"
+  />
+  <div
+    className="content-global-init"
+  >
+    <Form
+      className="form-login-failed failed-step1"
+    >
+      <img
+        alt=""
+        className="form-img"
+        src="login.png"
+      />
+      <div
+        className="content-title-form"
+      >
+        <p
+          className="title-form-failed"
+        >
+          Parece que tenemos problemas con tu usuario
+        </p>
+      </div>
+      <FormLabel
+        className="group-label label-info"
+        column={false}
+        visuallyHidden={false}
+      />
+      <FormLabel
+        className="group-label label-info-second"
+        column={false}
+        visuallyHidden={false}
+      >
+        Para continuar comunícate con servicio al asociado
+      </FormLabel>
+      <div
+        className="customer-service"
+        id="content-customer-service"
+      >
+        <img
+          alt=""
+          className=""
+          src="arrow-right.png"
+          srcSet="arrow-right.svg"
+        />
+        <a
+          href="/support"
+          id="support-lf"
+        >
+          Contacta a servicio al asociado
+        </a>
+      </div>
+    </Form>
+  </div>
+  <img
+    alt=""
+    className="elipse-img"
+    src="elipse.png"
+  />
+  <img
+    alt=""
+    className="elipse-img-desk elipse-failed"
+    src="elipse-desk.png"
+  />
+  <img
+    alt=""
+    className="networks-img failed"
+    src="networks.png"
+  />
+  <img
+    alt=""
+    className="women-img"
+    src="women.png"
+  />
+</div>
+`;

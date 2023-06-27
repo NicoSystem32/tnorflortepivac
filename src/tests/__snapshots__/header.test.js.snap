@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <HeaderInit /> debe de mostrar <HeaderInit /> correctamente 1`] = `
+<Fragment>
+  <Navbar
+    className="theme-header"
+    collapseOnSelect={false}
+    expand={true}
+    variant="light"
+  >
+    <Container
+      className="content-header"
+      fluid={false}
+    >
+      <a
+        className="logo"
+        href="/login"
+        id="logo"
+      >
+        <img
+          alt=""
+          src="logo.png"
+        />
+      </a>
+      <a
+        className="options-content border-pipe"
+        href="/support"
+        id="support-hd"
+      >
+        <img
+          alt="Servicio al asociado"
+          className="options-img"
+          src="headset.svg"
+          srcSet="headset.png"
+        />
+        <p
+          className="options-text"
+        >
+          Servicio al asociado
+        </p>
+      </a>
+      <a
+        className="options-content border-pipe"
+        href="/forget-password"
+        id="forget-password-hd"
+      >
+        <img
+          className="options-img"
+          src="users-cog.svg"
+          srcSet="users-cog.png"
+        />
+        <p
+          className="options-text"
+        >
+          Olvidé mi usuario
+        </p>
+      </a>
+      <a
+        className="options-content"
+        href="https://transacciones.cavipetrol.com/DwPortalApp/Cavionline/UI/Web/bloqueado_m.aspx?tabID=417&mID=3411"
+        id="unlocked-user-hd"
+        target="_blank"
+      >
+        <img
+          className="options-img"
+          src="unlock.svg"
+          srcSet="unlock.png"
+        />
+        <p
+          className="options-text"
+        >
+          Desbloquear mi usuario
+        </p>
+      </a>
+      <a
+        className="option-register"
+        href="https://transacciones.cavipetrol.com/DwPortalApp/Cavionline/UI/Web/x_crea0_m.aspx?tabID=417&mID=3411"
+        id="new-user-hd"
+        target="_blank"
+      >
+        <span
+          className="register"
+        />
+      </a>
+    </Container>
+  </Navbar>
+</Fragment>
+`;

@@ -1,0 +1,92 @@
+button.dropdown__toggle{
+  background-image: var(--url-palette-icon);
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+}
+.theme-menu {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    padding: 20px;
+    z-index: 99;
+    background-color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: right 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.theme-menu.active {
+    right: 0;
+}
+
+.theme-menu__close {
+  position: absolute;
+  top: 31px;
+  right: 20px;
+  font-size: 0.8rem;
+  background: transparent url(../../assets/icons/close-modal.png) center/1em auto no-repeat;
+  background-size: 20px;
+  opacity: 1;
+  border: none;
+  width: 15px;
+  height: 15px;
+}
+
+.theme-menu__select {
+    margin-top: 40px;
+}
+
+.mode-list {
+    margin-top: 20px;
+}
+
+.mode-list > li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 25px;
+}
+
+.mode-list > li ~ li {
+    margin-top: 10px;
+}
+
+.mode-list__color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.mode-list__color > i {
+    transform: scale(0);
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.mode-list__color.active > i {
+    transform: scale(1);
+}
+
+i.theme-mode-default {
+  content: var(--img-theme-theme1);
+  width: 30px;
+  transform: rotate(90deg) !important;
+}
+i.theme-mode-green {
+  content: var(--img-theme-theme2);
+  width: 30px;
+  transform: rotate(90deg) !important;
+}
+i.theme-mode-azul {
+  content: var(--img-theme-theme3);
+  width: 30px;
+  transform: rotate(90deg) !important;
+}
